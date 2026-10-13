@@ -2,6 +2,9 @@ name: push event
 
 on:
   push:
+    branches:
+      - main
+      - develop
 
 
 
