@@ -1,0 +1,13 @@
+name: push event
+
+on:
+  push:
+
+
+
+jobs:
+    push-event:
+        runs-on: ubuntu-latest
+        steps:
+            - name: run greetings
+              run: echo "Hello, World!"
